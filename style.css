@@ -1,0 +1,516 @@
+/* Define the styles for the green button */
+.green-button {
+    background-color: #4CAF50; /* Green background color */
+    color: #fff; /* Text color (white) */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Padding around the text */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+
+    margin-left: 1330px;
+    margin-top: 0%;
+}
+
+/* Change button appearance on hover for user interaction */
+.green-button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+.black{
+    background-color: black;
+    font-size: 32px ;
+    display: flex;
+    flex-direction: row;
+}
+.envato{
+    color: white;
+}
+.market{
+    color: green;
+}
+h2{
+    text-align: center;
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+.Categories{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+.carousel-container {
+    width: 455px;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* .slide-container{
+    display: flex;
+    width: calc(250px*18);
+    overflow: hidden;
+    animation: scroll 30s linear infinite;
+    
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px*9));
+    }
+}
+.slide-image{
+    height: 450px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 150px;
+} */
+p{
+    width: 100%;
+}
+h4{
+    width: 100%;
+}
+.box{
+    width: 100%;
+    height: 0.1%;
+    border: 0.001px solid rgb(108, 101, 101);
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.Email{
+    text-align: center;
+}
+input[type="email"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.SUB{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid red;
+    margin-left: 700px;
+    
+}
+.cont{
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 500px;
+   
+} 
+ .county{
+    display: flex ;
+    flex-direction: row;
+    flex: 4;
+
+ }
+ .box1{
+    flex: 1;
+    width: 300px;
+    height: 200px;
+    border: 0.1px solid rgb(173, 158, 158);
+    margin-left: 60px;
+ }
+ .box2{
+    flex: 1;
+    width: 300px;
+    
+    height: 300px;
+    border: 0.1px solid rgb(173, 158, 158);
+    margin-left: 60px;
+ }
+ .box3{
+    flex: 1;
+    width: 300px;
+    height: 200px;
+    border: 0.1px solid rgb(173, 158, 158);
+   
+ }
+ .box4{
+    flex: 1;
+    width: 300px;
+    
+    height: 300px;
+    border: 0.1px solid rgb(173, 158, 158);
+    
+ }
+ .box5{
+    flex: 1;
+    width: 300px;
+    height: 500px;
+    border: 0.001px solid #999999;
+ }
+ .box6{
+    flex: 1;
+    width: 300px;
+    height: 500px;
+    border: 0.1px solid rgb(173, 158, 158);
+ }
+
+ .county p{
+    color: red;
+    padding: 3px;
+    margin-left: 40px;
+    margin-top: 35px;
+
+ }
+ .county h5{
+    margin-top: 40px;
+    margin-left: 20px;
+
+    color:white;
+
+ }
+
+ 
+/*
+.box1{
+    color: white;
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    
+    border: 0.01px solid rgb(90, 84, 84);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}  
+.box1 .S{
+    color: red;
+
+}
+p{
+    margin-top: 200px;
+}
+.box p{
+    margin-top: 200px;
+}
+.box2{
+    color: white;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    
+    border: 0.01px solid rgb(90, 84, 84);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.box3{
+    color: white;
+    width: 300px;
+    height: 200px;
+  
+    
+    border: 0.01px solid rgb(90, 84, 84);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.box4{
+    color: white;
+    width: 300px;
+    height: 300px;
+    border: 0.01px solid rgb(90, 84, 84);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}   */
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height:  100%;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .carousel-inner {
+   padding: 1em;
+  }
+
+  .carousel-control-prev,
+.carousel-control-next {
+  background-color: #10100d;
+  color: #4CAF50;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.card H5{
+
+    text-align: center;
+
+}
+.card a{
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid red;
+    color: black;
+    margin-left: 120px;
+
+    
+}
+.card a:hover{
+    background-color: red;
+    color: white;
+}
+
+.card-img-top {
+    /* Adjust the width to your preference */
+   transition: transform 0.3s;
+}
+
+.card-img-top:hover {
+   transform: scale(1.1);
+   overflow: hidden;
+
+}
+
+
+.slide-container{
+  display: 
+  flex;
+  gap: 20px;
+  flex-direction: row;
+  margin-left: 80px
+}
+
+
+.first{
+    color: #999999;
+    font-size: 16px;
+    width: 350px;    
+}
+.hang{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.hang:hover{
+    color: red;
+}
+.muku2 img{
+    width: 55px;
+    height: 55px;
+    border-radius: 55px;
+}
+.muku2{
+    display: flex;
+    flex-direction: row;
+}
+.news{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.upper-news{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.right-news{
+    width: 350px;
+    height: 270px;
+
+}
+.pic-news img{
+    width: 200px;
+    height: 233px;
+}
+.navbar-brand{
+    font-size: 18px;
+    font-weight: 700;
+}
+.down-news{
+    margin-top: 40px;
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-left: 175px ;
+}
+.left-photo, .right-photo{
+   position: relative;
+ display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+.type{
+    position: absolute ;
+    margin-top: 450px ;
+    font-size: 90px; 
+ color: #ffffff;
+    font-weight: 700;
+    margin-left: 210px ;
+text-shadow: #1f1f1f;
+    
+}
+.typo{
+    position: absolute ;
+    margin-top: 450px ;
+    color: #10100d;
+    font-size: 17px ;
+    font-weight: 300px ;
+    margin-left: 200px ;
+
+}
+.txt5{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.txt6{
+    font-size: 35px;
+    font-weight: 500;
+    
+}
+.txt7{
+    
+    font-size: 35px;
+    font-weight: 200; 
+
+}
+.txt8 button  {
+    background-color: white;
+    border-radius:15px ;
+    font-size: 14px;
+    margin-top: 70px;
+
+
+}
+.txt8 button:hover{
+    border-radius: 15px;
+    color: white;
+    background-color: red;
+}
+.txt9{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    margin-left: 340px;
+}
+.txt10{
+    font-size: 35px;
+    font-weight: 500;
+    
+}
+.txt11{
+    
+    font-size: 35px;
+    font-weight: 200; 
+
+}
+.txt12:hover{
+    color: red;
+
+}
+.Read:hover{
+    color: red;
+}
+.Read{
+    margin-top: 60px; 
+    font-weight: 500 ;
+}
+
+.aa1{
+ display: flex ;
+ flex-direction:  row ;
+}
+.jj{
+    display: flex;
+    flex-direction: column ;
+}
+.ll{
+    display: flex ;
+    flex-direction: row ;
+}
+.cc{
+    margin-top: 30px ;
+    margin-left: 40px ;
+margin-right: 70px ;
+}
+
+.dd{
+     margin-top: 40px ;
+    display: flex ;
+    flex-direction: row ;
+}
+
+.ff{ 
+    margin-top:30px  ;
+    margin-left: 40px;
+    margin-right: 70px;
+
+}
+
+.ll{
+    margin-top: 40px ;
+ 
+}
+
+
+.gg{
+    font-size: 15px;
+   font-weight: 500 ;
+}
+
+.hh{
+    color: #999999;
+
+}
+.footer{
+    width: 100%;
+}
+.item{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    width: 95px;
+    height: 35px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+
+
+}
+.item:hover{
+    background-color: black;
+
+}
